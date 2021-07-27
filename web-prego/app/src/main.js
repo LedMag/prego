@@ -1,0 +1,1 @@
+@@include('js/script.js')
