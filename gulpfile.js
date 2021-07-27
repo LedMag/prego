@@ -24,7 +24,7 @@ const paths = {
   },
   source: {
     html: sourceFolder + '/index.html',
-    css: sourceFolder + '/scss/style.scss',
+    css: sourceFolder + '/style.scss',
     js: sourceFolder + '/main.js',
     images: sourceFolder + '/img/**/*.{jpg, png}'
   },

@@ -1,0 +1,52 @@
+.footer {
+
+  &__inner {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+  }
+
+  &__logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px
+  }
+
+  &__logo-item {
+
+  }
+
+  &__menu {
+    height: 100%;
+    background-color: green;
+  }
+
+  &__list {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+
+  }
+
+  &__link {
+
+  }
+
+  &__links {
+
+  }
+}
