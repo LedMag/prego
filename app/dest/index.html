@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/style.min.css">
   <title>Document</title>
 </head>
 <body>
@@ -26,11 +26,11 @@
           </li>
         </ul>
       </nav>
-      <select class="header__leng">
+      <select id="select_of_lang" class="header__leng">
         <option value="en">en</option>
         <option value="es" selected>es</option>
         <option value="ru">ru</option>
-        <option value="fr">fr</option>
+        <!-- <option value="FR">fr</option> -->
       </select>
     </div>
 </header>
@@ -41,12 +41,7 @@
 
   <section class="menu container">
   <div class="menu__inner">
-    <h2 class="menu__category">
-      <h3 class="menu__title">
-        <p class="menu__desc">
-        </p>
-      </h3>
-    </h2>
+    <div id="menu" class="menu__category-box"></div>
   </div>
 </section>
 
@@ -87,6 +82,7 @@
   </div>
 </footer>
 
-  <script src="/main.js"></script>
+
+  <script src="/main.min.js"></script>
 </body>
 </html>

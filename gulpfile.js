@@ -42,7 +42,7 @@ function browserSync(params) {
     server: {
         baseDir: "./" + projectFolder + '/'
     },
-    port: 3000,
+    port: 2000,
     notify: false,
   })
 }
@@ -103,7 +103,7 @@ function clean() {
 }
 
 
-let build = gulp.series(clean, gulp.parallel(html, css, js, img));
+let build = gulp.series(clean, gulp.parallel(html, js, css, img));
 let watch = gulp.parallel(build, watchFiles, browserSync);
 
 exports.img = img;
